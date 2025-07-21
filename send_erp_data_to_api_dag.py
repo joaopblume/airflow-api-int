@@ -6,7 +6,7 @@ agrupando por pedido e enviando para integração via API.
 
 Principais características:
 - Usa "Datasets" para controle de dependências
-- Implementa XComs via JSON serializáveis (sem pickle)
+- Implementa XComs via JSON serializáveis
 - Segue padrões do Airflow 2.10+ com task decorators e task groups
 - Usa deferrable operators para tarefas de longa duração
 - Implementa retries configuráveis e mecanismos de timeout
